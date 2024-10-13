@@ -4,6 +4,8 @@
 ![Status](https://img.shields.io/badge/Status-Complete-green.svg)
 ![Version](https://img.shields.io/badge/Version-1.0-orange.svg)
 ![Netlify](https://img.shields.io/badge/Deployed-Netlify-blue.svg)
+
+
 Streamline your day with Timely, an elegant time management app. Set and track daily schedules, customize timers, and manage targets effortlessly. Save preferences locally for seamless use.
 
 ### **_Live Link of Project :-_**
