@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Schedule</title>
+    <link rel="stylesheet" href="/Timely/css/newSchedule.css">
+</head>
+<body>
+    <div class="box">
+            <input type="text" placeholder="Daily Activity Name" id="activityName" required>
+            <div class="bTime">
+                <label for="goalTime">Set Daily Time:</label>
+                <input type="time" id="goalTime" name="tTime" required>
+            </div>
+            <div class="bDate">
+                <label for="startDate">Start Date:</label>
+                <input type="date" id="startDate" name="startDate" required>
+                <label for="dueDate">Due Date:</label>
+                <input type="date" id="dueDate" name="dueDate" required>
+            </div>
+            <button type="button" class="submitButton" onclick="addNewTarget()">Add New Activity</button>
+
+    </div>
+    <div class="toast" id="toast"></div>
+    <script src="/Timely/js/newSchedule.js"></script>
+</body>
+</html>

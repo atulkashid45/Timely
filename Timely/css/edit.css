@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+}
+
+.box {
+    max-width: 800px;
+    width: 100%;
+    padding: 25px 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    height: fit-content;
+    width: fit-content;
+    font-size: 20px;
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    margin-bottom: 15px;
+    height: 40px;
+    width: 100%;
+    font-size: 17px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+input:focus {
+    border-bottom: 2px solid #3498db;
+}
+
+input[type="date"],
+input[type="time"] {
+    height: 40px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #3498db;
+    font-size: 16px;
+}
+
+.completedHoursContainer {
+    display: flex;
+    align-items: center;
+}
+
+.completedHoursContainer input {
+    flex: 1;
+}
+
+.completedHoursContainer button.resetBtn {
+    margin-left: 10px;
+    padding: 5px 10px; /* Adjusted padding for the reset button */
+}
+
+#flag[type="checkbox"] {
+    margin-top: 20px;
+    height: 20px; 
+    width: 20px; 
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bottomlContent {
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    text-decoration: none;
+    color: inherit;
+}

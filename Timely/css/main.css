@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+}
+
+/* main.css */
+
+.table {
+    max-width: 450px;
+    width: 100%;
+    padding: 25px 40px 10px 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #3498db;
+    font-size: 16px;
+}
+
+@media (max-width: 700px) {
+    .box {
+        font-size: 16px;
+    }
+}
+
+.tableElement {
+    height: 50px;
+    width: 350px;
+    border: 2px solid black;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+}
+.bottom {
+    position: fixed;
+    bottom: 2%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    
+}
+button {
+    font-size: 1em;
+    margin: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.addButton {
+    margin-right: 25px;
+}
+.settingButton {
+    margin-left: 25px;
+}
+
+
+
+.dropdown-button:hover + .dropdown-content,
+.dropdown-content:hover {
+    display: block;
+}
+
+.dropdown-content {
+    width: 200px;
+    position: fixed;
+    left: calc(50% - 100px);
+    bottom: 80px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.dropdown-option {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-option:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown-option:last-child {
+    border-bottom: none;
+}
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+    text-align: right;
+}
+@media (max-width: 700px) {
+    .table {
+        max-width: 90%;
+    }
+    .object {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .header {
+        display: none;
+    }
+    .bottom {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        margin-top: auto; /* Align to the bottom */
+    }
+    .button {
+        margin: 5px;
+    }
+    .dropdown-content {
+        width: 150px;
+        left: calc(50% - 75px);
+        bottom: 60px;
+    }
+}
+
+@media (min-width: 701px) {
+    .table {
+        max-width: 450px;
+    }
+    .bottom {
+        position: fixed;
+        bottom: 2%;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+}
