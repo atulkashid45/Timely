@@ -1,4 +1,9 @@
 # Timely - _"Streamline Your Time, Achieve Your Goals"_
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow.svg)
+![CSS](https://img.shields.io/badge/Style-CSS-blue.svg)
+![Status](https://img.shields.io/badge/Status-Complete-green.svg)
+![Version](https://img.shields.io/badge/Version-1.0-orange.svg)
+![Netlify](https://img.shields.io/badge/Deployed-Netlify-blue.svg)
 Streamline your day with Timely, an elegant time management app. Set and track daily schedules, customize timers, and manage targets effortlessly. Save preferences locally for seamless use.
 
 ### **_Live Link of Project :-_**
